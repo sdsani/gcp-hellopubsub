@@ -9,5 +9,4 @@ public class GcpHellopubsubApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GcpHellopubsubApplication.class, args);
 	}
-
 }

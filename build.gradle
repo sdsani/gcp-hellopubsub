@@ -18,6 +18,14 @@ ext {
 }
 
 dependencies {
+	
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// https://mvnrepository.com/artifact/org.springframework.integration/spring-integration-core
+	implementation group: 'org.springframework.integration', name: 'spring-integration-core', version: '5.5.5'
+	
+
 	implementation 'com.google.cloud:spring-cloud-gcp-starter-pubsub'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
